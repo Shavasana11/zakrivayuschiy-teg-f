@@ -60,6 +60,7 @@
               src="./images/car.webp"
               alt="Подготовка к работе"
               class="card__image"
+              loading="lazy"
             />
           </div>
           <div class="card__text-container">
@@ -72,7 +73,11 @@
               Место для ваших воспоминаний о начале обучения.
             </p>
             <div class="card__like-button-container">
-              <button class="card__icon-button" aria-labelledby="html-1">
+              <button
+                class="card__icon-button"
+                aria-labelledby="html-1"
+                type="button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -261,7 +266,11 @@
               Место для ваших воспоминаний о начале второго спринта.
             </p>
             <div class="card__like-button-container">
-              <button class="card__icon-button" aria-labelledby="desigions">
+              <button
+                class="card__icon-button"
+                aria-labelledby="desigions"
+                type="button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -326,7 +335,7 @@
             <p class="card__text">
               Место для ваших воспоминаний об окончании второго спринта.
             </p>
-            <div class="card__like-button-container">
+            <div class="card__like-button-container" type="button">
               <button class="card__icon-button" aria-labelledby="care">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -386,7 +395,11 @@
               Место для ваших воспоминаний о начале третьего спринта.
             </p>
             <div class="card__like-button-container">
-              <button class="card__icon-button" aria-labelledby="support">
+              <button
+                class="card__icon-button"
+                aria-labelledby="support"
+                type="button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -451,7 +464,11 @@
               Место для ваших воспоминаний об окончании третьего спринта.
             </p>
             <div class="card__like-button-container">
-              <button class="card__icon-button" aria-labelledby="lifes-style">
+              <button
+                class="card__icon-button"
+                aria-labelledby="lifes-style"
+                type="button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -518,7 +535,11 @@
               в этой точке пути.
             </p>
             <div class="card__like-button-container">
-              <button class="card__icon-button" aria-labelledby="experience">
+              <button
+                class="card__icon-button"
+                aria-labelledby="experience"
+                type="button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="like-icon"
@@ -561,11 +582,11 @@
           </div>
         </article>
       </section>
-
       <button
         class="button save-button"
         onclick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
+        type="button"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
