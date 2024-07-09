@@ -6,4 +6,18 @@
   --heart-color: #ff0000;
 }
 
-
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-background: rgba(0, 0, 0, 1);
+    --background-color: var(--page-background);
+    --background-color-start: rgba(0, 127, 12, 1);
+    --background-color-end: rgba(0, 67, 6, 1);
+    --title-font-weight: "wght" 785;
+    --text-font-weight: "wght" 465;
+    --header-background: var(--page-background);
+    --text-color: rgba(0, 204, 20, 1);
+    --mix-blend-color: var(--text-color);
+    --stroke-color: var(--text-color);
+    --label-stroke-color: var(--page-background);
+  }
+}

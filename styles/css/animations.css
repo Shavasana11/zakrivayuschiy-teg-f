@@ -1,18 +1,18 @@
 /* Animation */
 
 .theme-menu__button:disabled::before {
-  animation: arrow-animation 0.5s ease-in-out infinite alternate;
+  animation: arrowAnimation 0.5s ease-in-out infinite alternate;
 }
 
 .like-icon.is-liked .heart {
-  animation: scale-animation 0.3s ease-in 0.1s 1 alternate;
+  animation: scaleAnimation 0.3s ease-in 0.1s 1 alternate;
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks-animation 0.3s ease-in 0.3s 1 alternate;
+  animation: sparksAnimation 0.3s ease-in 0.3s 1 alternate;
 }
 
-@keyframes arrow-animation {
+@keyframes arrowAnimation {
   from {
     left: -20px;
   }
@@ -21,7 +21,7 @@
   }
 }
 
-@keyframes scale-animation {
+@keyframes scaleAnimation {
   from {
     scale: 1;
   }
@@ -30,7 +30,7 @@
   }
 }
 
-@keyframes sparks-animation {
+@keyframes sparksAnimation {
   from {
     opacity: 0;
   }
