@@ -1,7 +1,7 @@
 /* Root variables */
 
 :root {
-  --main-font-family: 'Inter-Variable', sans-serif;
+  --main-font-family: "Inter-Variable", sans-serif;
   --fantasy-font-family: "Press Start 2P", fantasy;
   --heart-color: #ff0000;
   --page-background: rgba(255, 255, 255, 1);
@@ -15,4 +15,23 @@
   --mix-blend-color: var(--page-background);
   --stroke-color: var(--text-color);
   --label-stroke-color: var(--page-background);
+  --bg-image: repeating-linear-gradient(
+      to right,
+      var(--background-color, rgba(231, 231, 231, 1)),
+      var(--background-color, rgba(231, 231, 231, 1)) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      var(--background-color-start, rgba(0, 127, 12, 1)),
+      var(--background-color-end, rgba(0, 0, 0, 1)) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      to bottom,
+      var(--background-color-start, rgba(0, 127, 12, 1)) 0.01%,
+      var(--background-color-end, rgba(0, 0, 0, 1)) 100%
+    );
 }

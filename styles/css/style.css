@@ -2,31 +2,14 @@
 
 .page {
   font-variation-settings: var(--text-font-weight, 400);
-  font-family: var(--main-font-family,--fantasy-font-family);
+  font-family: var(--main-font-family, --fantasy-font-family);
   min-inline-size: 320px;
   min-block-size: 100dvb;
   color: var(--text-color, rgba(0, 0, 0, 1));
-  background: repeating-linear-gradient(
-      90deg,
-      var(--background-color, rgba(231, 231, 231, 1)) 0,
-      var(--background-color, rgba(231, 231, 231, 1)) 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    repeating-linear-gradient(
-      180deg,
-      var(--background-color-start, rgba(0, 127, 12, 1)) 0,
-      var(--background-color-end, rgba(0, 0, 0, 1)) 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    repeating-linear-gradient(
-      180deg,
-      var(--background-color-start, rgba(0, 127, 12, 1)) 0.01%,
-      var(--background-color-end, rgba(0, 0, 0, 1)) 100%
-    );
   background-size: cover;
   background-attachment: fixed;
+  background-color: var(--background-color);
+  background-image: var(--bg-image);
 }
 
 .grayscale {
@@ -58,14 +41,16 @@
 }
 
 .image-label {
-  font-family: var(--fantasy-font-family, 'Press Start 2P');
+  font-family: var(--fantasy-font-family, "Press Start 2P");
   font-size: 14px;
   font-variation-settings: var(--text-font-weight, 400);
   z-index: 1;
   opacity: 0.5;
   mix-blend-mode: hard-light;
-  text-shadow: -1px 0 var(--label-stroke-color, --page-background), 0 1px var(--label-stroke-color, --page-background),
-    1px 0 var(--label-stroke-color, --page-background), 0 -1px var(--label-stroke-color, --page-background);
+  text-shadow: -1px 0 var(--label-stroke-color, --page-background),
+    0 1px var(--label-stroke-color, --page-background),
+    1px 0 var(--label-stroke-color, --page-background),
+    0 -1px var(--label-stroke-color, --page-background);
   position: absolute;
   right: 25px;
   top: 27px;
