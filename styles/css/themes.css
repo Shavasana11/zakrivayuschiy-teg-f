@@ -12,6 +12,26 @@
   --mix-blend-color: var(--page-background);
   --stroke-color: var(--text-color);
   --label-stroke-color: var(--page-background);
+  --bg-image: 
+      repeating-linear-gradient(
+        to right, 
+        #d3d3d3 0,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ), 
+      repeating-linear-gradient(
+        to bottom, 
+        #d3d3d3 0,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(
+        to bottom,
+        #e7e7e7 0.01%,
+        #1a1a1a
+      );
 }
 
 :root.theme-dark {
@@ -26,6 +46,26 @@
   --mix-blend-color: var(--text-color);
   --stroke-color: var(--text-color);
   --label-stroke-color: var(--page-background);
+  --bg-image: 
+      repeating-linear-gradient(
+        to right, 
+        #000 0,
+        #000000 2px,
+        transparent 2px,
+        transparent 4px
+      ), 
+      repeating-linear-gradient(
+        to bottom, 
+        #000 0,
+        #000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(
+        to bottom,
+        #007f0c 0.01%,
+        #004306
+      );
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,5 +81,25 @@
     --mix-blend-color: var(--text-color);
     --stroke-color: var(--text-color);
     --label-stroke-color: var(--page-background);
+    --bg-image: 
+      repeating-linear-gradient(
+        to right, 
+        #000 0,
+        #000 2px,
+        transparent 2px,
+        transparent 4px
+      ), 
+      repeating-linear-gradient(
+        to bottom, 
+        #000 0,
+        #000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(
+        to bottom,
+        #007f0c 0.01%,
+        #004306
+      );
   }
 }

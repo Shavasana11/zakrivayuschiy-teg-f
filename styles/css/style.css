@@ -8,7 +8,7 @@
   color: var(--text-color, rgba(0, 0, 0, 1));
   background-size: cover;
   background-attachment: fixed;
-  background-color: var(--background-color);
+  background-color: var(--background-color, #fff);
   background-image: var(--bg-image);
 }
 

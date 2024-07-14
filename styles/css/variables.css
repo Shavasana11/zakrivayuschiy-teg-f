@@ -16,22 +16,22 @@
   --stroke-color: var(--text-color);
   --label-stroke-color: var(--page-background);
   --bg-image: repeating-linear-gradient(
-      to right,
-      var(--background-color, rgba(231, 231, 231, 1)),
-      var(--background-color, rgba(231, 231, 231, 1)) 2px,
+      to right, 
+      #d3d3d3 0,
+      #d3d3d3 2px,
       transparent 2px,
       transparent 4px
-    ),
+    ), 
     repeating-linear-gradient(
-      to bottom,
-      var(--background-color-start, rgba(0, 127, 12, 1)),
-      var(--background-color-end, rgba(0, 0, 0, 1)) 2px,
+      to bottom, 
+      #d3d3d3 0,
+      #d3d3d3 2px,
       transparent 2px,
       transparent 4px
     ),
     linear-gradient(
       to bottom,
-      var(--background-color-start, rgba(0, 127, 12, 1)) 0.01%,
-      var(--background-color-end, rgba(0, 0, 0, 1)) 100%
+      #e7e7e7 0.01%,
+      #1a1a1a
     );
 }
