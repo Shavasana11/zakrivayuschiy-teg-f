@@ -15,7 +15,8 @@
   --mix-blend-color: var(--page-background);
   --stroke-color: var(--text-color);
   --label-stroke-color: var(--page-background);
-  --bg-image: repeating-linear-gradient(
+  --bg-image: 
+    repeating-linear-gradient(
       to right, 
       #d3d3d3 0,
       #d3d3d3 2px,
